@@ -50,7 +50,7 @@ output = cv2.bitwise_and(image2, image2, mask = mask)
 
 
 #Show output compared to original
-cv2.imshow("Original", im)
+cv2.imshow("Original with ROI", im)
 cv2.imshow("Final", output)
 cv2.waitKey()
 cv2.destroyAllWindows()
